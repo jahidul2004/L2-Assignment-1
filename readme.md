@@ -6,10 +6,10 @@ Type inference is TypeScript’s ability to automatically determine the type of 
 
 ## Wht type inference helpful?
 
-1.Its help to write more cleaner code.
-2.Its helps to determine the type automatically.
-3.Its help to catch mistakes.
-4.Its help to get more suggestion in modern code base like vscode.
+- Its help to write more cleaner code.
+- Its helps to determine the type automatically.
+- Its help to catch mistakes.
+- Its help to get more suggestion in modern code base like vscode.
 
 ## Example of type inference
 
