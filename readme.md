@@ -1,10 +1,10 @@
-# Type Inference in TypeScript
+# 1.Type Inference in TypeScript
 
 Type inference is TypeScript’s ability to automatically determine the type of a variable, parameter, or return value, based on how it’s used. Its help to write more cleaner code and help to catch the errors.
 
 ---
 
-## Wht type inference helpful?
+## Why type inference helpful?
 
 - Its help to write more cleaner code.
 - Its helps to determine the type automatically.
@@ -24,7 +24,7 @@ message = 123; // Error: Type 'number' is not assignable to type 'string'
 
 ---
 
-# Union and Intersection types in Typescript
+# 2.Union and Intersection types in Typescript
 
 ## Union Type
 
