@@ -11,6 +11,15 @@ Type inference is TypeScript’s ability to automatically determine the type of 
 3.Its help to catch mistakes.
 4.Its help to get more suggestion in modern code base like vscode.
 
+## Example of type inference
+
+```
+let message = "Hello, world!";
+message = "Hi again!"; // OK cause both type are same
+message = 123; // Error: Type 'number' is not assignable to type 'string'
+
+```
+
 ---
 
 ---
