@@ -55,3 +55,19 @@ function processValue(value: string | number): number {
         return value * 2;
     }
 }
+
+interface Product {
+    name: string;
+    price: number;
+}
+
+function getMostExpensiveProduct(products: Product[]): Product | null {
+    if (products.length === 0) {
+        return null;
+    } else {
+        const expensiveProduct = products.reduce((prev, current) => {
+            return prev.price > current.price ? prev : current;
+        });
+        return expensiveProduct;
+    }
+}
